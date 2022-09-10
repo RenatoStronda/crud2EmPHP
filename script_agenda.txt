@@ -1,0 +1,12 @@
+CREATE DATABASE AGENDA;
+
+USE AGENDA;
+
+CREATE TABLE contato
+(
+   cd_contato INT AUTO_INCREMENT,
+   nm_contato VARCHAR(60),
+   nm_telefone VARCHAR(11),
+   nm_email VARCHAR(40),
+   CONSTRAINT pk_contato PRIMARY KEY (cd_contato)
+);
